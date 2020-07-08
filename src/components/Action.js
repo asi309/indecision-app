@@ -2,8 +2,13 @@ import React from 'react';
 
 const Action = (props) => (
     <div>
-        <button disabled={!props.hasOptions} onClick={props.handlePick}>What should I do?</button>
-        <button onClick={props.handleDeleteOptions}>Remove All</button>
+        <button
+            className="big-button"
+            disabled={!props.hasOptions}
+            onClick={props.handlePick}
+        >
+            What should I do?
+        </button>
     </div>
 );
 

@@ -1,0 +1,26 @@
+.widget{
+    background-color: $light-dark-background;
+    margin-bottom: $xl-size;
+}
+
+.widget__body{
+    margin: 0;
+    padding-top: $l-size;
+    padding-bottom: $l-size;
+    display: flex;
+    justify-content: space-around;
+    color: $off-white;
+    border-bottom: 1px solid lighten($color: $light-dark-background, $amount: 10%);
+}
+
+.widget-header{
+    background-color: $dark-background;
+    color: $off-white;
+    display: flex;
+    justify-content: space-between;
+    padding: $m-size;
+}
+
+.widget-header__heading{
+    margin: 0 0;
+}
